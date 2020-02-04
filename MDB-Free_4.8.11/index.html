@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <script src="app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Pacifico|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><strong>Restaurant Ethiopia</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-home"></i>Startseite <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+              <!-- Evtl. "Speisen & Getränke" -->
+              <a class="nav-link" href="#speisekarte"><i class="fas fa-book-open"></i>Speisekarte</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Reservierungen</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#map"><i class="fas fa-map-marker"></i>Anfahrt</a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Full Page Intro -->
+    <div class="view" style="background-image: url(img/image1.png); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-black-light align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row titel">
+            <!--Grid column-->
+            <div class="col-md-12 mb-4 white-text text-center justify-content-center">
+              <h1 class="h1-responsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Restaurant Ethiopia<p>ምግብ ቤት - ኢትዮጲያ</p></strong></h1>
+              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.8s">
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
+    <!-- Full Page Intro -->
+  </header>
+  <!-- Main navigation -->
+  <!--Main Layout-->
+
+  <hr class="style-one">
+
+  <div class="container-fluid gerichte" id="speisekarte">
+  <div class="row gerichte justify-content-start">
+      <div class="col-md-12">
+          <div class="gerichte-title">
+            <i class="fas fa-utensils"></i>
+            <h4>Gerichte</h4>
+          </div>
+      </div>
+    <!-- <div class="gerichte col-md-12 menu-title justify-content-center">
+      HAUPTGERICHTE
+    </div> -->
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Zilzil Tibs (Derek) <span>€ 12,00</span>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Mahiberawi <span>€ 12,50</span>
+      <p class="menu-item-description">Gemahlene Erbsen, gewürfeltes Lammfleisch mit verschiedenen äthiopischen Gewürzen in einer Berbere Sauce und anderen Gewürzen gemischt</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Shiro-Wot (Alicha) <span>€ 10,00</span>
+      <p class="menu-item-description">Gemahlene Erbsen mit Paprika und Gewürze zubereitet, dazu eine Salatbeilage serviert</p>
+    </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Doro-Wot <span>€ 10,00</span>
+    <p class="menu-item-description">Hähnchen geröstet in einer äthiopischen scharfen Sauce mit verschienden Gewürzen zubereitet, dazu Salatbeilage</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Doro-Wot (Alicha) <span>€ 10,00</span>
+    <p class="menu-item-description">Hähnchen geröstet in einer äthiopischen scharfen Sauce mit verschiedenen Gewürzen zubereitet, dazu Salatbeilage</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Kitfo <span>€ 10,00</span>
+    <p class="menu-item-description">Gehacktes Rindfleisch (Steak Tartar) in würziger Butter und Paprika gerührt</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Gored Gored <span>€ 10,00</span>
+    <p class="menu-item-description">Rindfleischstücke in würziger Butter und Paprika gerührt</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Gomen Besiga <span>€ 10,00</span>
+    <p class="menu-item-description">Rindergulasch mit Knochen, Grünkohl, exotischen Gewürzen und Paprika gekocht, dazu Salatbeilage</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Gemüse Mix <span>€ 8,50</span>
+    <p class="menu-item-description">Verschiedene Gemüsegerichte</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Yebeg Tibs <span>€ 8,50</span>
+    <p class="menu-item-description">Gewürfeltes Lammfleisch mit verschiedenen äthiopischen Gewürzen in einer Pfanne scharf oder mittelscharf gebraten, dazu Salatbeilage</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Yebere Tibs <span>€ 8,50</span>
+    <p class="menu-item-description">Gewürfeltes Rindfleisch mit verschiednen äthiopischen Gewürzen in einer Pfanne scharf oder mittelscharf gebraten, dazu Salatbeilage</p>
+  </div>
+
+  <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Key-Wot <span>€ 9,00</span>
+    <p class="menu-item-description">Gewürfeltes Lammfleisch mit verschiednen äthiopischen Gewürzen zu einem scharfen oder mittlscharfen Goulasch zubereitet mit Salabeilage serviert</p>
+  </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Bozena Shiro <span>€ 9,00</span>
+      <p class="menu-item-description">Besonderes Bohnenmehl mit exotischen Gewürzen, Paprika und einem Gewürze Special zubereitet, dazu Salatbeilage</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Trippa <span>€ 8,50</span>
+      <p class="menu-item-description">Kuttelfleisch (Bauch) mit Gewürzen und Sauce</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Tibs Firfir (Yebeg) <span>€ 9,00</span>
+      <p class="menu-item-description">Dazu Salatbeilage</p>
+    </div>
+    
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+    Key-Wot Firfir (Yebeg) <span>€ 9,00</span>
+    <p class="menu-item-description">Gewürfeltes Rindfleisch mit verschiednen äthiopischen Gewürzen in Berbere sauce und anderen Gewürzen gemischt, dazu Salatbeilage</p>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3 menu-item">
+      Salat Special <span>€ 6,00</span>
+      <p class="menu-item-description">Alle Gerichte werden mit Ingera serviert! *Äth. Fladenbrot</p>
+    </div>
+
+  </div>
+  </div>
+    
+  <hr class="style-two">
+
+  <div class="container-fluid getränke" id="getränke">
+    <div class="row getränke justify-content-start">
+
+  <div class="col-md-12">
+    <div class="getränke-title mt-5">
+      <h4> Getränke</h4>
+    </div>
+  </div>
+
+    <div class="col-md-12 getränke-sorten">
+      <div class="getränke-title">
+        <h4>Alkoholfreie Getränke</h4>
+      </div>
+    </div>
+    <!-- replace next item with softdrinks if possible since it takes up too much space -->
+
+    <!-- <div class="col-lg-4">
+        <p class="menu-item">Coca Cola, Fanta oder Sprite 0.2L<span>€ 2,00</span></p>
+    </div> -->
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Coca Cola, Fanta oder Sprite 0.2L<span>€ 2,00</span></p>
+  </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Tonic, Bitter Lemon 0,2L <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Mineralwasser 0,2L<span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Orangen, Bananen, Apfel, Kirschensaft 0,2L <span>€ 2,50</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Alkoholfreies Bier 0,33L <span>€ 2,30</span></p>
+    </div>
+
+    <!-- <div class="col-lg-4">
+      <p class="menu-item-getränke">Pils, Warsteiner vom Fass oder Flasche 0,33L <span>€ 2,30</span></p>
+    </div> -->
+
+    <div class="col-md-12">
+      <div class="getränke-title getränke-sorten mt-5">
+        <i class="fas fa-glass-cheers fa-2x"></i>
+        <h4>Alkoholische Getränke</h4>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Pils, Warsteiner vom Fass od. Flasche 0,33L <span>€ 2,30</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Pils, Warsteiner vom Fass od. Flasche 0,4L <span>€ 3,00</span></p> 
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Weizenbier Kristall, Hefe od. Dunkel 0,5L <span>€ 3,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Franziskaner 0,5L <span>€ 3,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Becks 0.33L <span>€ 2,30</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Bitburger 0,33L <span>€ 2,30</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Koenig Ludwig (helles Weizen) <span>€ 3,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Äthiopische Biere <span>€ 3,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Gin 2 cl <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Martini 2 cl <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Tequila 2 cl <span>€ 2,00</span></p> 
+    </div>
+    
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Ouzo 2 cl <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Sambuca 2 cl <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Campari 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Wodka Moskovskaya 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Wodka Absolut 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Apfelkorn 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Baccardi 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Johnnie Walker red label 2 cl <span>€ 2,00</span></p> 
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Johnnie Walker black label 2 cl <span>€ 2,00</span></p>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Chivas, Jack Daniel's od. White Horse 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Rot od. Weisswein, Chianti 0,2L <span>€ 3,50</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Rot od. Weisswein Flasche <span>€ 16,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Sekt Glas <span>€ 2,50</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Piccolo Sekt flasche 0,2 cl <span>€ 5,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+     <p class="menu-item-getränke">Apfelwein 0,25 L € 2,50 od. 0,4 L <span>€ 3,00</span></p> 
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Äthiopische Weine <span>€ 4,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Asbach Uralt 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Chantré 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Rémi Martin 2 cl <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-12">
+      <div class="getränke-title getränke-sorten mt-5">
+        <i class="fas fa-mug-hot fa-2x"></i>        
+        <h4>Heiße Getränke</h4>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Tee verschiedene Sorten Tasse <span>€ 1,50</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Kaffee Tasse <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Espresso Tasse <span>€ 2,00</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Capuccino Tasse <span>€ 2,50</span></p>   
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Milchkaffee Tasse <span>€ 2,50</span></p>  
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <p class="menu-item-getränke">Latte Macchiato Tassee <span>€ 2,50</span></p>  
+    </div>
+</div>
+  </div>
+
+<hr class="style-two">
+
+
+
+<!-- Google map  -->
+    <!-- Note: As of July 16, 2018, an API Key is required to obtain Google Maps feature. -->
+    <div id="map">
+    <div id="map-container-google-1 map-responsive" class="z-depth map-container" style="height: 1000px;">
+      <iframe src="https://maps.google.com/maps?q=Rudolfstraße+19,+60327+Frankfurt+am+Main&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  <!--Google Maps -->
+
+  
+
+
+  
+  <!-- Google map  -->
+    <!-- Note: As of July 16, 2018, an API Key is required to obtain Google Maps feature. -->
+    <!-- <div id="map-container-google-1 map-responsive" class="z-depth map-container" style="height: 1000px;">
+        <iframe src="https://maps.google.com/maps?q=Rudolfstraße+19,+60327+Frankfurt+am+Main&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0" allowfullscreen></iframe>
+        </div> -->
+    <!--Google Maps -->
+
+
+  <!-- Start your project here-->
+
+  
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+  // Animations init
+  new WOW().init();
+
+  // navbar collapse
+//   $('.navbar-nav>li>a').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });
+
+$(document).click(function(e) {
+	if (!$(e.target).is('.panel-body')) {
+    	$('.collapse').collapse('hide');	    
+    }
+});
+
+  </script>
+  <!-- <script>
+    $(".map-container iframe").appendTo(".container-fluid");
+  </script> -->
+</body>
+
+</html>
